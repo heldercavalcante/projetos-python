@@ -92,7 +92,6 @@ def cart_page():
 
 def checkout_page():
     num = randint(1, 100)
-    print(len(checkout.request))
     checkout.print_final_request(num)
 
 
